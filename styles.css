@@ -59,7 +59,7 @@ header {
   border: 12px solid brown; /* Brown border */
   border-radius: 50px; /* Rounded corners */
   font-family: 'Fahkwang', sans-serif; /* Use Fahkwang font */
-  font-size: 20px; /* Font size */
+  font-size: 25px; /* Font size */
   color: rgb(228, 243, 15); /* Text color */
   text-align: center; /* Center text */
   box-sizing: border-box;
