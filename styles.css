@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(5, 5, 5); /* Set background color to black */
+  
+}
+
+header {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-left a
+{
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.nav-left a:hover,
+.nav-right a:hover {
+  color: #007BFF;
+}
+
+.nav-right a {
+  margin-left: 10px;/* Adjust icon size */
+}
+.icon {
+  width: 44px; /* Adjust icon size */
+  height: 44px; /* Adjust icon size */
+  margin-left: 5px; /* Space between icon and text */
+  border: 2px solid black;
+}
+
+.main-image {
+  width: 100%; /* Set image width to 100% of the screen */
+  display: block; /* Remove any space below the image */
+}
+.image-container {
+  position: relative; /* Position relative for absolute positioning of overlay image */
+  width: 100%; /* Full width */
+}
+.text-rectangle {
+  position: absolute; /* Position the rectangle absolutely */
+  top: 30%; /* Adjust as needed to position above the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the rectangle */
+  width: 90%; /* Adjust width as needed */
+  padding: 0px; /* Padding inside the rectangle */
+  background-color: transparent; /* Transparent background */
+  border: 12px solid brown; /* Brown border */
+  border-radius: 50px; /* Rounded corners */
+  font-family: 'Fahkwang', sans-serif; /* Use Fahkwang font */
+  font-size: 35px; /* Font size */
+  color: rgb(228, 243, 15); /* Text color */
+  text-align: center; /* Center text */
+  box-sizing: border-box;
+  
+}
+.video-container {
+  width: 100%; /* Full width */
+  display: flex; /* Center the video */
+  justify-content: center; /* Center the video */
+  margin-top: 20px; /* Space above the video */
+}
+
+.custom-video {
+  width: 90%; /* Adjust width as needed */
+  max-width: 800px; /* Optional: set a max width */
+  border: 2px solid black; /* Optional: add a border */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+.content-heading {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Font style */
+  font-size: 45px; /* Heading size */
+  margin: 10px 0 0; /* Margin to remove space above */
+  text-align: center;
+  color: rgb(241, 11, 203);
+}
+
+.content-paragraph {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Font style */
+  font-size: 39px; /* Paragraph size */
+  text-align: center; /* Center the paragraph */
+    margin: 10px 20px; /* Remove margin to avoid extra space */
+    color: rgb(213, 15, 231);
+}
+.new-heading {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Font style */
+  font-size: 45px; /* Set the font size for the new heading */
+  margin-top: 20px; /* Margin of 20 pixels above the new heading */
+  text-align: center; /* Center the new heading */
+  color: rgb(213, 15, 231);
+}
+.info-section {
+  display: flex; /* Use flexbox for alignment */
+  align-items:flex-start; /* Center items vertically */
+  margin-top: 20px; /* Add some space above the section */
+}
+
+.info-section img{
+  background-color: white;
+  
+}
+
+.info-image {
+  width: 400px; /* Set desired width */
+  height: 400PX; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between image and text */
+  border: solid 2px black;
+}
+
+.info-text {
+  max-width: 600px; /* Set a max width for the text */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color:rgb(213, 15, 231) ;
+}
+
+.info-heading {
+  font-size: 44px; /* Set font size for the heading */
+  margin: 0; /* Remove default margin */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.info-paragraph {
+  font-size: 34px; /* Set font size for the paragraph */
+  margin-top: 10px; /* Space above the paragraph */
+  color: rgb(213, 15, 231);;
+}
+
+
+.info-section2 {
+  display: flex; /* Use flexbox for alignment */
+  align-items:flex-start; /* Center items vertically */
+  margin-top: 20px; /* Add some space above the section */
+  
+}
+
+.info-section2 img{
+  background-color: white;
+  
+}
+
+.info-section3 img{
+  background-color: white;
+  
+}
+
+.info-section4 img{
+  background-color: white;
+  
+}
+
+.info-section5 img{
+  background-color: white;
+  
+}
+
+.info-section6 img{
+  background-color: white;
+  
+}
+
+
+.info-section3 {
+  display: flex; /* Use flexbox for alignment */
+  align-items:flex-start; /* Center items vertically */
+  margin-top: 20px; /* Add some space above the section */
+}
+
+.info-section4 {
+  display: flex; /* Use flexbox for alignment */
+  align-items:flex-start; /* Center items vertically */
+  margin-top: 20px; /* Add some space above the section */
+}
+
+.info-section5 {
+  display: flex; /* Use flexbox for alignment */
+  align-items:flex-start; /* Center items vertically */
+  margin-top: 20px; /* Add some space above the section */
+}
+
+.info-section6 {
+  display: flex; /* Use flexbox for alignment */
+  align-items:flex-start; /* Center items vertically */
+  margin-top: 20px; /* Add some space above the section */
+}
+
+.info-section7 {
+  display: flex; /* Use flexbox for alignment */
+  align-items:flex-start; /* Center items vertically */
+  margin-top: 20px; /* Add some space above the section */
+  
+  
+}
+
+.info-textWAGIE {
+   /* Set a max width for the text */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color:rgb(213, 15, 231) ;
+}
+
+.horizontal-text {
+   /* Space above the text */
+  margin-left: 20px; /* Margin on the right */
+  font-family: Arial, sans-serif; /* Basic font style */
+  font-size: 20px; /* Font size */
+  text-align: left; /* Align text to the left */
+  color: brown;
+  margin-top: 400px;
+}
+
+.footer {
+  background-color: #f1f1f1; /* Light gray background */
+  text-align: center; /* Center the text */
+  padding: 10px 0; /* Padding above and below the text */
+  position: relative; /* Position relative for layout */
+  bottom: 0; /* Align to the bottom */
+  width: 100%; /* Full width */
+  margin-top: 30px; /* Space above the footer */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Basic font style */
+  font-size: 14px; /* Font size */
+}
+
+.ROADMAP-image {
+  width: 100%; /* Set image width to 100% of the screen */
+  display: block; /* Remove any space below the image */
+  position: relative; /* Position relative for absolute positioning of overlay image */
+  margin-top: 100px;
+
+}
